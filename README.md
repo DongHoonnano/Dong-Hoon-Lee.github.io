@@ -17,7 +17,7 @@
 <body>
     <div class="header">
         <div class="bio">
-            <h1>Your Name</h1>
+            <h1>Dong Hoon Lee</h1>
             <p>Here is a brief bio about yourself. Mention your current position, research interests, and any other relevant information.</p>
         </div>
         <img src="path_to_your_photo.jpg" alt="Your Photo" class="photo">
