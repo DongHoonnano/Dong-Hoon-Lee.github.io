@@ -1,7 +1,7 @@
-<<<<<<< HEAD
-=======
+ HEAD
+
 # Dong-Hoon-Lee.github.io
->>>>>>> 879736978873106dc38b092abff9301dd61278df
+879736978873106dc38b092abff9301dd61278df
 <!DOCTYPE html>
 <html lang="en">
 <head>
