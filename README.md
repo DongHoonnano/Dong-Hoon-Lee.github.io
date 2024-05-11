@@ -18,7 +18,10 @@
     <div class="header">
         <div class="bio">
             <h1>Dong Hoon Lee</h1>
-            <p>Here is a brief bio about yourself. Mention your current position, research interests, and any other relevant information.</p>
+            <p>I am Dong Hoon Lee, currently a final-year Ph.D. candidate(ABD, anticipated graduation date/Fall 2024) at Department of Agricultural and Biological Engineering, University of Illinois at Urbana-Champaign(UIUC). I obtained my master's in Bioengineering at the UIUC and Bachelor's in Life Science at Gachon University, South Korea.  Prior to joining ABE department at UIUC, I served 3-years alternative military service(Technical Research Personnel) at Seoul National University Hospital, and the Institute for Basic Science, South Korea as a Research Staff. 
+                I am currently investigating an organic-material based, next generation nanozyme and its implementation in optical sensing platform for agricultural and biological applications. 
+            I am an elected fellow at the Royal Society of Arts and elected member at the Royal Society of Biology. 
+                
         </div>
         <img src="path_to_your_photo.jpg" alt="Your Photo" class="photo">
     </div>
