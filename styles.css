@@ -1,87 +1,53 @@
-body {
-    font-family: 'Athelas', serif;
-    color: deep blue;
-    background-color: white;
+body, html {
+    height: 100%;
     margin: 0;
-    padding: 0;
+    font-family: Athelas, serif;
+    background-color: white;
+    color: deep blue;
 }
 
-.profile {
+.container {
     display: flex;
-    align-items: start;
-    justify-content: center;
+    align-items: flex-start;
     padding: 20px;
 }
 
-.profile-photo {
+.profile-photo img {
     width: 150px;
     height: 150px;
     border-radius: 75px;
-    margin-right: 20px;
 }
 
-.bio-content {
-    max-width: 800px;
+.info {
+    margin-left: 20px;
 }
 
-.social-media a {
+.social-links img {
+    width: 24px;
+    height: 24px;
     margin-right: 10px;
-    color: deep blue;
-    text-decoration: none;
-}
-
-h1, h2, h3 {
-    color: deep blue;
-}
-
-/* Specific styles for the publications */
-.publication-list {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
 }
 
 .publication {
     display: flex;
     align-items: center;
-    background: #f9f9f9;
-    padding: 10px;
-    border-radius: 5px;
+    margin-top: 10px;
 }
 
 .publication img {
-    width: 100px;
-    height: auto;
+    width: 100px; /* Set as needed */
+    height: 100px; /* Set as needed */
     margin-right: 10px;
-    border-radius: 5px;
 }
 
-.publication-info {
-    display: flex;
-    flex-direction: column;
-}
-
-.publication-info .journal-name {
-    background-color: #FF4136;
+.pub-info .journal {
+    background-color: red;
     color: white;
-    padding: 2px 8px;
-    border-radius: 4px;
-    display: inline-block;
+    padding: 2px 5px;
     font-size: 0.8em;
-    margin-bottom: 5px;
 }
 
-.publication a {
-    color: #002244; /* Deep blue, as per your preference */
-    font-weight: bold;
-    text-decoration: none;
+.pub-info p {
+    margin: 0;
 }
-
-.publication span {
-    font-size: 0.8em;
-    color: #666;
-}
-
-
-
 
