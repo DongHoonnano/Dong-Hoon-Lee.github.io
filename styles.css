@@ -1,19 +1,16 @@
-/* Base settings for the body */
 body {
     font-family: 'Athelas', serif;
+    color: deep blue;
+    background-color: white;
     margin: 0;
-    background: white;
-    color: #003366; /* Deep blue color */
-    line-height: 1.6;
+    padding: 0;
 }
 
-/* Header and profile section styling */
-header {
+.profile {
     display: flex;
-    align-items: center;
-    justify-content: left;
+    align-items: start;
+    justify-content: center;
     padding: 20px;
-    background-color: #f8f8f8;
 }
 
 .profile-photo {
@@ -23,56 +20,68 @@ header {
     margin-right: 20px;
 }
 
-.social-icons {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
+.bio-content {
+    max-width: 800px;
 }
 
-.social-icons li {
+.social-media a {
     margin-right: 10px;
+    color: deep blue;
+    text-decoration: none;
 }
 
-.social-icon {
-    width: 24px;
-    height: 24px;
-    display: block;
+h1, h2, h3 {
+    color: deep blue;
 }
 
-/* Content sections */
-.content {
-    padding: 20px;
-}
-
-h1, h2 {
-    color: #003366;
-}
-
-.publications {
+/* Specific styles for the publications */
+.publication-list {
     display: flex;
-    flex-wrap: wrap;
-    margin-top: 20px;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .publication {
-    width: calc(50% - 10px);
-    margin-bottom: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .publication img {
-    width: 100%; /* Responsive images */
+    width: 100px;
     height: auto;
-    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
 }
 
-.journal-box {
-    background-color: #900; /* Deep red color */
+.publication-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.publication-info .journal-name {
+    background-color: #FF4136;
     color: white;
-    padding: 5px;
-    font-size: 14px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 0.8em;
     margin-bottom: 5px;
 }
 
-/* Adjust the spacing and layout as necessary */
+.publication a {
+    color: #002244; /* Deep blue, as per your preference */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.publication span {
+    font-size: 0.8em;
+    color: #666;
+}
+
+
+
+
