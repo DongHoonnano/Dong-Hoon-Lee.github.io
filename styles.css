@@ -42,3 +42,45 @@ body, html {
     overflow-y: auto;
     height: 100vh;
 }
+
+.publication {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.publication img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.publication-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.publication-info .journal-name {
+    background-color: #FF4136;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-bottom: 5px;
+}
+
+.publication a {
+    color: #002244; /* Deep blue, as per your preference */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.publication span {
+    font-size: 0.8em;
+    color: #666;
+}
+
