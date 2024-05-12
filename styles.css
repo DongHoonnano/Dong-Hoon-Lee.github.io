@@ -1,13 +1,14 @@
 body, html {
-    height: 100%;
     margin: 0;
-    font-family: Athelas, serif;
+    padding: 0;
+    font-family: Arial, sans-serif;
     background-color: white;
-    color: deep blue;
+    color: #333;
 }
 
 .container {
     display: flex;
+    justify-content: center;
     align-items: flex-start;
     padding: 20px;
 }
@@ -29,25 +30,15 @@ body, html {
 }
 
 .publication {
-    display: flex;
-    align-items: center;
     margin-top: 10px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
 }
 
-.publication img {
-    width: 100px; /* Set as needed */
-    height: 100px; /* Set as needed */
-    margin-right: 10px;
-}
-
-.pub-info .journal {
+.journal-box {
     background-color: red;
     color: white;
     padding: 2px 5px;
-    font-size: 0.8em;
+    font-size: 14px;
+    margin-bottom: 5px;
 }
-
-.pub-info p {
-    margin: 0;
-}
-
