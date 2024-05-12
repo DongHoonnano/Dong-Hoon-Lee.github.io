@@ -1,44 +1,58 @@
-body, html {
+body {
+    font-family: 'Athelas', serif;
+    background-color: white;
+    color: #073642; /* deep blue */
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: white;
-    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
+    width: 80%;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 20px;
+    justify-content: space-between;
 }
 
-.profile-photo img {
+.profile-section {
+    text-align: center;
+}
+
+.profile-photo {
     width: 150px;
     height: 150px;
-    border-radius: 75px;
-}
-
-.info {
-    margin-left: 20px;
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
 
 .social-links img {
-    width: 24px;
-    height: 24px;
-    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+.info {
+    width: 60%;
 }
 
 .publication {
-    margin-top: 10px;
-    border-top: 1px solid #ccc;
-    padding-top: 10px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 5px;
 }
 
 .journal-box {
-    background-color: red;
+    background-color: #dc322f; /* red */
     color: white;
-    padding: 2px 5px;
-    font-size: 14px;
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: 0.8em;
     margin-bottom: 5px;
+}
+
+h1, h2 {
+    color: #268bd2; /* light blue */
 }
